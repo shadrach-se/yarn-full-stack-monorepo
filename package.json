@@ -1,4 +1,12 @@
 {
-  "name": "template",
-  "packageManager": "yarn@4.2.2"
+  "name": "full-stack-template",
+  "private": true,
+  "workspaces": [
+    "app",
+    "server"
+  ],
+  "packageManager": "yarn@4.2.2",
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
 }

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "emitDeclarationOnly": true,
+    "module": "ESNext",
+    "target": "ES2022",
+    "moduleResolution": "Bundler",
+    "noEmit": false,
+    "outDir": "../.cache/ts-server",
+    "types": ["node", "vite/client"],
+    "esModuleInterop": true
+  },
+  "include": ["**/*.ts", "**/*.json"],
+  "exclude": ["**/dist/**/*", "**/node_modules/**/*"]
+}

@@ -11,3 +11,9 @@
 
 #!.yarn/cache
 .pnp.*
+
+# add node_modules to .gitignore
+node_modules
+.yarn
+.env*
+.cache*
